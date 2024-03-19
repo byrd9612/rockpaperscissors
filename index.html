@@ -20,21 +20,25 @@
     </div>
 
         <div id="stats">
-            <span class="scoreboard"><strong><h2><span id="pcscore">Computer Score: 0</span></h2></strong></span>
-            <span class="scoreboard"><strong><h2><span id="playerscore">Player Score: 0</span></h2></strong></span>
+            <span class="scoreboard"><strong><h2><span id="compscore">Computer Score: 0</span></h2></strong></span>
+            <span class="scoreboard"><strong><h2><span id="selfscore">Player Score: 0</span></h2></strong></span>
         </div>
 
 
         <div id="controls">
-            <button onclick="startGame()">Rock</button>
-            <button onclick="startGame()">Paper</button>
-            <button onclick="startGame()">Scissors</button>
+            <button id="rock" onclick="gamePlay()">Rock</button>
+            <button id="paper" onclick="gamePlay()">Paper</button>
+            <button id="scissors" onclick="gamePlay()">Scissors</button>
         </div>
 
-       
+        <div id="resulttext">
+            
+        </div>
+
+        <div id="flex">
             <img id="robot" src="robot.jpg">
             <img id="hand" src="hand.jpg">
-    
+        </div>
 
 
 
