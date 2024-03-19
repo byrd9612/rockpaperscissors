@@ -47,6 +47,11 @@ button {
     
 }
 
+#stats {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #pcscore {
     display: flex;
     justify-content: center;
